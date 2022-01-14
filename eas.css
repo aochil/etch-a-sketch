@@ -1,0 +1,91 @@
+body{
+    background: antiquewhite;
+}
+
+h1 { 
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    text-align: center;    
+}
+
+h2 {
+    height: fit-content;
+    width: fit-content;
+    margin: auto;
+    text-align: center;
+}
+
+#grid {
+    width: 512px;
+    height: 512px;
+    background-color: wheat;  
+    border-width: 5px;
+    border-color: black; 
+    border-style: solid; 
+}
+
+.body {
+    display: flex;
+    justify-content: center;
+    gap: 5px;
+    margin-top: 25px;
+}
+#controls{
+    width: 108px;
+}
+.color{
+    padding: 10px;
+    transition: .3s;
+    border-radius: 10px;
+
+}
+
+.color:active{
+    transform: scale(.85);
+    border-radius: 15px;
+}
+
+#eraser,
+#clear,
+#sixteen,
+#thirtytwo,
+#sixtyfour {
+    width: 100%;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: .3s; 
+    border-radius: 10px;
+}
+
+#eraser:active,
+#clear:active,
+#sixteen:active,
+#thirtytwo:active,
+#sixtyfour:active
+{
+    transform: scale(.85);
+}
+
+.color{
+    cursor: pointer;
+}
+.divGrid {
+    width: 32px;
+    height: 32px;
+}
+
+.divGrid2 {
+    width: 16px;
+    height: 16px;
+}
+.divGrid3{
+    width: 8px;
+    height: 8px;
+}
+.divGrid,
+.divGrid2,
+.divGrid3 {
+    background-color: white;
+    float: left;
+}
